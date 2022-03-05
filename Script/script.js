@@ -88,7 +88,7 @@ function recieveData(lat,lon){
 
 const dateData= new Date()
 const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-const days=["Monday","Tuesday","Wedsday","Thursady","Friday"]
+const days=["Monday","Tuesday","Wedsday","Thursady","Friday","Saturday","Sunday"]
 
 function dateFun(){
     date.innerHTML=days[dateData.getUTCDay()-1]+','+dateData.getUTCDate()+' '+months[dateData.getUTCMonth()]
