@@ -148,12 +148,12 @@
 }
 .other-details-light .humidity img{
     position: absolute;
-    left: 9.2rem;
+    left: 8.5rem;
     top: .5rem;
 }
 .other-details-light .pressure img{
     position: absolute;
-    left: 15.5rem;
+    left: 15rem;
     top: .5rem;
 }
 .other-details-light .wind p,
@@ -175,12 +175,12 @@
 }
 .other-details-light .humidity p{
     position: absolute;
-    left:9.2rem ;
+    left:8.5rem ;
     top: 2rem;
 }
 .other-details-light .pressure p{
     position: absolute;
-    left:15.5rem ;
+    left:15rem ;
     top: 2rem;
 }
 
@@ -202,12 +202,12 @@
 }
 .other-details-light .humidity h5{
     position: absolute;
-    left: 9.3rem;
+    left: 8.55rem;
     top: 2.75rem;
 }
 .other-details-light .pressure h5{
     position: absolute;
-    left: 15.35rem;
+    left: 14.9rem;
     top: 2.75rem;
 }
 
