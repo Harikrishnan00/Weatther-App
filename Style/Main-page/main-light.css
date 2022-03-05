@@ -69,7 +69,7 @@
     height: 8rem;
     position: absolute;
     top: .8rem;
-    left:5.7rem;
+    left:5.2rem;
 }
 
 .center-part-light .temp{
@@ -153,7 +153,7 @@
 }
 .other-details-light .pressure img{
     position: absolute;
-    left: 16.5rem;
+    left: 15.5rem;
     top: .5rem;
 }
 .other-details-light .wind p,
@@ -180,7 +180,7 @@
 }
 .other-details-light .pressure p{
     position: absolute;
-    left:16.5rem ;
+    left:15.5rem ;
     top: 2rem;
 }
 
@@ -207,7 +207,7 @@
 }
 .other-details-light .pressure h5{
     position: absolute;
-    left: 16.35rem;
+    left: 15.35rem;
     top: 2.75rem;
 }
 
