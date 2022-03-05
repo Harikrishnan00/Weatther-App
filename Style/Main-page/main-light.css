@@ -212,8 +212,8 @@
 }
 
 .hourly-forcast {
-    position: relative;
-    top: 24.5rem;
+    position: absolute;
+    top: 26.5rem;
     overflow: auto;
     scroll-behavior: smooth;
     white-space:nowrap;
