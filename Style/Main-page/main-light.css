@@ -213,12 +213,12 @@
 
 .hourly-forcast {
     position: relative;
-    top: 24.5rem;
+    top: 24rem;
     overflow: auto;
     scroll-behavior: smooth;
     white-space:nowrap;
     width: 100%;
-    height:12rem ;
+    height:11rem ;
 }
 .hourly-forcast::-webkit-scrollbar{
     display: none;
