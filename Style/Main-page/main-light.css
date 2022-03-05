@@ -75,6 +75,7 @@
 .center-part-light .temp{
     position: relative;
     top:7rem;
+    left: .3rem;
     font-family: Arimo,sans-serif;
     font-style: normal;
     font-weight: normal;
