@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./Style/Intro/intro.css">
+    <link rel="stylesheet" href="./Style/Main-page/main.css">
+</head>
+<body>
+
+<!-- INTRO PAGE PORTION -->
+
+    <div class="intro-light">
+        <img src="./3d weather icons/sun/30.png" class="icon" alt="Wheather Icon">
+        <h3 class="h3-light">Lorem Lpsum Has Been The Industry's Standard</h3>
+        <p class="p-light">when an unknown printer took a galley of type and scrambled</p>
+        <button class="get-started">Get started</button>
+    </div>
+
+<!-- MAIN PAGE PORTION -->
+
+    <div class="main-page">  
+    <!-- TOP PART OF THE MAIN PAGE -->
+
+        <div class="top-part-light">
+            <img src="./Icons/location.svg" class="location-icon"alt="location-icon">
+            <p class="location"></p>
+            <img src="./Icons/search-icon.svg" class="search-icon" alt=""> 
+        </div>
+
+    <!-- CENTER PART OF THE MAIN PAGE -->
+
+        <div class="center-part-light">
+            <img src="" class="weather-icon"alt="">
+            <h1 class="temp"></h1>
+            <h4 class="description"></h4>
+            <div class="degree"></div>
+            <p class="date"></p>
+        </div>
+
+    <!-- SEARCHING PART OF THE MAIN PAGE -->
+
+        <div class="search-area-light">
+            <input type="text" placeholder="Enter your location...." class="input-box">
+            <img src="./Icons/search-icon.svg" class="search-icon-og" alt="">
+            <img src="./Icons/cancel.svg" alt="" class="cancel">
+            <div class="search-result">
+            </div>
+        </div>
+
+    <!-- THE DETAILS OF WIND,HUMIDITY,PRESSURE IN MAIN PAGE-->
+
+        <div class="other-details-light">
+            <div class="wind">
+               <img src="./Icons/wind.svg" class="wind-icon" alt="">
+               <p>Wind</p>
+               <h5 class="wind-M">1 km/hr</h5>
+            </div>
+            <div class="humidity">
+               <img src="./Icons/humidity.svg" class="humidity-icon" alt="">
+               <p>Humidity</p>
+               <h5 class="humi-M">100%</h5>
+            </div>
+            <div class="pressure">
+               <img src="./Icons/pressure.svg" class="pressure-icon" alt="">
+               <p>Pressure</p>
+               <h5 class="pres-M">1 bar</h5>
+            </div>   
+        </div>
+
+    <!-- HOURLY FROCASTING PORTION -->
+
+        <div class="bottom-part-light">
+            <div class="hourly-forcast"> 
+            </div>
+        </div>
+    </div>
+
+            <!-- SCRIPT LINKING -->
+
+    <script src="./Script/script.js"></script>
+</body>
+</html>

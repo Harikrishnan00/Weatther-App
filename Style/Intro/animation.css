@@ -1,0 +1,29 @@
+            /* CREATON OF ANIMATION STARTS*/
+
+/* SCALING THE CONTENTS FROM NOTHING TO IT'S ORGINAL STATE */
+
+@keyframes enlarging{
+    0%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.icon,.h3-light,.p-light,.get-started{
+    animation: enlarging 2s ease-in-out ;
+}
+
+/* MOVING THE INTRO PAGE INTO LEFT AND DISAPPEARING */
+
+@keyframes vanishing{
+    100%{
+        transform: translate(-25rem,0);
+    }
+}
+.intro-light-anime{
+    animation: vanishing 1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+            /* CREATON OF ANIMATION ENDS*/

@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-page{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.top-part-light{
+    width: 95%;
+    height:3rem;
+    position: absolute;
+    top:0;
+    left: .6rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom-left-radius: .7rem;
+    border-bottom-right-radius: .7rem;
+    -webkit-box-shadow: -1px 0px 28px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: -1px 0px 28px 0px rgba(0,0,0,0.29);
+    box-shadow: -1px 0px 28px 0px rgba(0,0,0,0.29);
+}
+.location-icon,.search-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.location-icon{
+    position: absolute;
+    left: 5.5rem;
+    top: .6rem;
+}
+.search-icon{
+    position: absolute;
+    left: 18rem;
+    top: .6rem;
+}
+.location{
+    position: absolute;
+    left: 7.5rem;
+    top: 1em;
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 131.19%;
+    text-align: center;
+    color: #6D6262;
+}
+
+
+
+.center-part-light{
+    width: 80%;
+    height: 19rem;
+    position: absolute;
+    top: 4.25rem;
+    left: 2.25rem;
+    background-color: white;
+    border-radius: .7rem;
+    -webkit-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+}
+
+.center-part-light .weather-icon{
+    width: 8rem;
+    height: 8rem;
+    position: absolute;
+    top: .8rem;
+    left:5.7rem;
+}
+
+.center-part-light .temp{
+    position: relative;
+    top:7rem;
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 7rem;
+    line-height: 131.19%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: transparent;
+    text-shadow: .5px .5px 1px rgba(230, 230, 230, 0.5);
+    -webkit-background-clip: text;
+        -moz-background-clip: text;
+            background-clip: text;
+}
+.center-part-light .degree{
+    position: relative;
+    top: -2rem;
+    left:13.5rem;
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    border: 1px solid #B2B2B2;
+}
+.center-part-light .description{
+    position: relative;
+    top: 5.5rem;
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 131.19%;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+.center-part-light .date{
+    position: relative;
+    top: 5rem;
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 131.19%;
+    text-align: center;
+    letter-spacing: 0.01em;
+}
+
+
+.other-details-light{
+    width: 80%;
+    height:4rem;
+    position: absolute;
+    top: 24.35rem;
+    left: 2.25rem;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: .7rem;
+    -webkit-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+}
+.other-details-light .wind img,
+.other-details-light .humidity img,
+.other-details-light .pressure img{
+    width: 1.3rem;
+    height: 1.3rem;
+}
+.other-details-light .wind img{
+    position: absolute;
+    left: 2rem;
+    top: .5rem;
+}
+.other-details-light .humidity img{
+    position: absolute;
+    left: 9.2rem;
+    top: .5rem;
+}
+.other-details-light .pressure img{
+    position: absolute;
+    left: 16.5rem;
+    top: .5rem;
+}
+.other-details-light .wind p,
+.other-details-light .humidity p,
+.other-details-light .pressure p
+{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 6px;
+    line-height: 131.19%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.69);
+}
+.other-details-light .wind p{
+    position: absolute;
+    left:2.15rem ;
+    top: 2rem;
+}
+.other-details-light .humidity p{
+    position: absolute;
+    left:9.2rem ;
+    top: 2rem;
+}
+.other-details-light .pressure p{
+    position: absolute;
+    left:16.5rem ;
+    top: 2rem;
+}
+
+.other-details-light .wind h5,
+.other-details-light .humidity h5,
+.other-details-light .pressure h5{
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: .7rem;
+    line-height: 131.19%;
+    text-align: center;
+    color: #000000;
+}
+.other-details-light .wind h5{
+    position: absolute;
+    left: 1.4rem;
+    top: 2.75rem;
+}
+.other-details-light .humidity h5{
+    position: absolute;
+    left: 9.3rem;
+    top: 2.75rem;
+}
+.other-details-light .pressure h5{
+    position: absolute;
+    left: 16.35rem;
+    top: 2.75rem;
+}
+
+.hourly-forcast {
+    position: relative;
+    top: 26rem;
+    overflow: auto;
+    scroll-behavior: smooth;
+    white-space:nowrap;
+    width: 100%;
+    height:11rem ;
+}
+.hourly-forcast::-webkit-scrollbar{
+    display: none;
+}
+.hr1{
+    position: relative;
+    top: 3.5rem;
+    left: 2rem;
+    right: 2rem;
+    margin-left: 1rem;
+    display: inline-block;
+    width: 5.5rem;
+    height: 7rem; 
+    background-color: white;
+    border-radius: .7rem;
+    -webkit-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    -moz-box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29);
+    box-shadow: 6px 1px 28px 0px rgba(0,0,0,0.29); 
+}
+.h5L{
+    position: relative;
+    top: .5rem;
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: 131.19%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+}
+.imgL{
+    position: relative;
+    top: .7rem;
+    left: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+h4{
+    position: relative;
+    top:0.1rem;
+    font-family: Arimo,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 131.19%;
+    text-align: center;
+    color: rgba(0, 0, 0, 69);
+}
+.bottom-part-light .hourly-forcast .hr1 .degree{
+    width: .3rem;
+    height: .3rem;
+    position: relative;
+    left: 3.9rem;
+    top: .9rem;
+    border-radius: 50%;
+    border: 1px solid #B2B2B2;
+}
