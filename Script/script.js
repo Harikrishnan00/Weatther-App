@@ -88,10 +88,10 @@ function recieveData(lat,lon){
 
 const dateData= new Date()
 const months=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
-const days=["Monday","Tuesday","Wedsday","Thursady","Friday","Saturday","Sunday"]
+const days=["Sunday","Monday","Tuesday","Wedsday","Thursady","Friday","Saturday"]
 
 function dateFun(){
-    date.innerHTML=days[dateData.getUTCDay()-1]+','+dateData.getUTCDate()+' '+months[dateData.getUTCMonth()]
+    date.innerHTML=days[dateData.getUTCDay()]+','+dateData.getUTCDate()+' '+months[dateData.getUTCMonth()]
 }
 
 // UPDATING THE VALUES WITH THE CURRENT WEATHEAR STATUS
